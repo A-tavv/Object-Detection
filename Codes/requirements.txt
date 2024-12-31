@@ -1,0 +1,21 @@
+!pip install --upgrade torch torchvision torchaudio ultralytics
+!pip install pydub simpleaudio
+!pip install pyttsx3
+!pip install timm
+!pip install gTTS
+!pip install googletrans
+import torch
+import os
+import numpy as np
+import matplotlib.patches as patches
+import cv2
+import matplotlib.pyplot as plt
+import pyttsx3
+import torch
+import numpy as np
+import matplotlib.patches as patches
+from collections import defaultdict
+from ultralytics import YOLO
+from gtts import gTTS
+from pydub import AudioSegment
+from pydub.playback import play
